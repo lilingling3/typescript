@@ -1,0 +1,5 @@
+hello ts
+main2
+tsc index.ts --target es2017 --module commonjs && node index.js
+tsc index.ts --target es2016 --module commonjs && node index.js
+tsc index.ts --target es2015 --module commonjs && node index.js

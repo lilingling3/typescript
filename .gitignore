@@ -1,0 +1,4 @@
+backend/build/*
+backend/node_modules
+backend/.vscode
+backend/.idea

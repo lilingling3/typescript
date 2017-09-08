@@ -1,0 +1,28 @@
+{
+  // Use IntelliSense to learn about possible Node.js debug attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "调试",
+      "program": "${workspaceRoot}/backend/build/src/bin/www.js",
+      "runtimeExecutable":"/Users/zhongzhengkai/.nvm/versions/node/v8.4.0/bin/node",
+      "cwd": "${workspaceRoot}",
+      "protocol": "inspector"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "调试ts",
+      "program": "/Users/zhongzhengkai/.nvm/versions/node/v8.4.0/bin/ts-node",
+      "args": [
+        "${workspaceRoot}/backend/server/src/bin/www.ts" // 入口文件
+      ],
+      "cwd": "${workspaceRoot}",
+      "protocol": "inspector"
+    }
+  ]
+}

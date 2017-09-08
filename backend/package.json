@@ -1,0 +1,41 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./build/main.js",
+    "bs:local": "tsc && node ./build/main.js",
+    "bs": "tsc && APP_ENV=test node ./build/main.js",
+    "bs-win:local": "tsc&& node ./build/main.js",
+    "bs-win": "tsc&& set APP_ENV=test&& node ./build/main.js"
+  },
+  "dependencies": {
+    "@ava/babel-preset-stage-4": "^1.1.0",
+    "@ava/babel-preset-transform-test-files": "^3.0.0",
+    "@types/async": "^2.0.42",
+    "@types/body-parser": "^1.16.5",
+    "@types/cookie-parser": "^1.4.1",
+    "@types/express": "^4.0.37",
+    "@types/express-handlebars": "0.0.29",
+    "@types/log4js": "0.0.33",
+    "@types/morgan": "^1.7.32",
+    "@types/node": "^8.0.26",
+    "@types/pg": "^6.1.43",
+    "@types/serve-favicon": "^2.2.29",
+    "async": "^2.5.0",
+    "ava": "^0.22.0",
+    "babel-core": "^6.26.0",
+    "body-parser": "~1.17.1",
+    "chokidar": "^1.7.0",
+    "co": "^4.6.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "express-handlebars": "^3.0.0",
+    "jade": "~1.11.0",
+    "log4js": "^0.6.33",
+    "morgan": "~1.8.1",
+    "pg": "^7.3.0",
+    "serve-favicon": "~2.4.2"
+  }
+}
